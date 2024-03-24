@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     border-radius: 4%;
     cursor: pointer;
     transition: .2s;
+    opacity: 70%;
 }
 .header__a:hover {
     color: #fff;
@@ -158,6 +159,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     line-height: 125%;
     color: #fff;
     cursor: pointer;
+    transition: .2s;
+}
+.header__button:hover {
+    opacity: 0.7;
 }
 
 /* how-it-works */
@@ -320,6 +325,10 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     background-color: #01996d;
     margin-top: 60px;
     cursor: pointer;
+    transition: .2s;
+}
+.success__left-button:hover {
+    opacity: 70%;
 }
 .success__right {
 }
