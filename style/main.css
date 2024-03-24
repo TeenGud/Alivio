@@ -154,4 +154,112 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     color: #fff;
 }
 
+/* how-it-works */
+.how_it_works {
+}
+.how_it_works-text {
+    display: flex;
+    padding-top: 168px;
+}
+.how_it_works-text-left {
+    padding-right: 137px;
+}
+.how_it_works-text-left-p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+.how_it_works-text-left-h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996d;
+    width: 584px;
+    letter-spacing: 0.02em;
+}
+.how_it_works-text-right {
+}
+.how_it_works-text-right-p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+    padding-top: 60px;
+}
+.how_it_works-items {
+    display: flex;
+    gap: 95px;
+}
+.how_it_works-item {
+    text-align: start;
+    align-items: start;
 
+}
+.how_it_works-item:nth-child(1) {
+    width: 390px;
+    height: 937px;
+    padding-top: 62px;
+}
+.how_it_works-item:nth-child(2) {
+    width: 392px;
+    height: 854px;
+    padding-top: 350px;
+}
+.how_it_works-item:nth-child(3) {
+    width: 441px;
+    height: 856px;
+    padding-top: 95px;     
+}
+.how_it_works-item-num {
+    font-family: "Georgia" sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+    color: rgba(1, 153, 109, 0.2);
+    position: relative;
+    z-index: 0;
+}
+.how_it_works-item-h5 {
+    font-family: "Georgia" sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    z-index: 1;
+    top: 123px;
+    left: 89px;
+    letter-spacing: 0.09em;
+}
+.how_it_works-item-p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 148%;
+    color: #424242;
+    width: 392px;
+}
+.how_it_works-item-img {
+    align-self: center;
+    position: relative;
+    z-index: 0;
+    padding-top: 60px;
+}
+.how_it_works-item-img-abs {
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    bottom: -1291px;
+    left: 481px;
+}
+.addit-h5 {
+    padding-right: 124px;
+}
+.addit-img {
+    padding-top: 35px;
+}
