@@ -21,7 +21,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     max-width: 1370px;
     width: 100%;
     margin: 0 auto;
-
+}
+.container2 {
+    max-width: 1506px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* header  */
@@ -120,14 +124,13 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     height: 100%;
 }
 .header__h1 {
-    font-family: var(--second-family);
+    font-family: "Georgia", sans-serif;
     font-weight: 700;
     font-size: 65px;
     color: #01996d;
     max-width: 440px;
-    padding-top: 164px;
-    letter-spacing: 0.01em;
-    line-height: 83px;
+    padding-top: 174px;
+    /* line-height: 83px; */
 }
 .header__p {
     font-family: var(--font-family);
@@ -141,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     line-height: 30px;
 }
 .header__button {
-    margin-top: 50px;
+    margin-top: 57px;
     border: 1px solid #01996d;
     background-color: #01996d;
     border-radius: 4px;
@@ -156,6 +159,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 /* how-it-works */
 .how_it_works {
+    margin-bottom: 306px;
 }
 .how_it_works-text {
     display: flex;
@@ -215,7 +219,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     padding-top: 95px;     
 }
 .how_it_works-item-num {
-    font-family: "Georgia" sans-serif;
+    font-family: "Georgia", sans-serif;
     font-weight: 400;
     font-size: 150px;
     line-height: 150%;
@@ -262,4 +266,52 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 .addit-img {
     padding-top: 35px;
+}
+
+/* success */
+.success {
+    height: 922px;
+    background-color: #245852;
+}
+.success__inner {
+    display: flex;
+    padding-top: 223px;
+}
+.success__left {
+}
+.success__left-h2 {
+    font-family: "Georgia", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    color: #fff;
+    padding-top: 88px;
+}
+.success__left-p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 157%;
+    color: #fff;
+    letter-spacing: 0.06em;
+    padding-top: 35px;
+}
+.success__left-button {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #fff;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+    width: 240px;
+    height: 65px;
+    background-color: #01996d;
+    margin-top: 60px;
+}
+.success__right {
+}
+.success_video {
+    border-radius: 5%;
+    margin-left: 53px;
 }
